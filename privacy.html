@@ -43,7 +43,7 @@
 <!-- ========================= English ========================= -->
 <article id="en" lang="en">
 <h1>BeDo Privacy Policy</h1>
-<p class="meta">Effective October 21, 2026</p>
+<p class="meta">Effective October 30, 2026</p>
 
 <p>BeDo helps you finish the few things you set for yourself each day: until they're done, your distracting apps stay locked. This policy explains what BeDo does with your information. The short version: <strong>your things, records, photos and recordings stay on your phone. We have no accounts, no user database, no ads and no tracking.</strong> The only data that leaves your phone is what goes to the AI service that powers Bedo, by way of a small relay of ours that keeps none of it, and only after you agree.</p>
 
@@ -52,7 +52,7 @@
   <li>No sign-up. No account. Our only server is a relay that passes AI requests along and stores none of them.</li>
   <li>No advertising, no analytics SDKs, no tracking across apps or websites. We never sell your data.</li>
   <li>Which apps you lock is hidden even from BeDo: iOS only gives it unreadable tokens.</li>
-  <li>Your Apple Health data and your recordings never leave your phone.</li>
+  <li>Your Apple Health data never leaves your phone. Your recordings are never sent to us or to the AI; if you're signed in to iCloud, a copy is kept in your own iCloud.</li>
   <li>When you talk to Bedo, what you send goes through our relay to DeepSeek, an AI service, and only after you say yes.</li>
 </ul>
 </div>
@@ -63,14 +63,15 @@
 </section>
 
 <section class="card">
-<h2>What stays on your phone</h2>
-<p>All of the following is stored only in BeDo's storage on your device. We don't receive it and can't see it.</p>
+<h2>What stays on your phone and in your iCloud</h2>
+<p>All of the following is stored in BeDo's storage on your device and, if you're signed in to iCloud, in your own iCloud. We don't receive it and can't see it.</p>
 <ul>
   <li><strong>Your things and their rules:</strong> names, days, lock times, how each one counts as done, smaller versions, scripts you read from.</li>
-  <li><strong>Your records:</strong> when you finished what, counts and times, notes you wrote, photos and screenshots you kept, voice recordings, your wall, weekly cards and letters.</li>
+  <li><strong>Your records:</strong> when you finished what, counts and times, notes you wrote, photos and screenshots you kept, voice recordings, your progress page, weekly notes and letters.</li>
+  <li><strong>What Bedo remembers:</strong> things you've told Bedo to keep in mind, in your own words (up to 60). You can see, change and delete them in Me → Bedo.</li>
   <li><strong>Settings:</strong> Bedo's name, when your day ends, how many early unlocks you allow yourself, and similar.</li>
 </ul>
-<p>BeDo does not currently sync to iCloud. Like other app data, this information may be included in your device backups (iCloud Backup or a computer backup) according to your iOS settings.</p>
+<p>If you're signed in to iCloud, BeDo keeps a copy of this in your own iCloud account (Apple's CloudKit private database), so it comes back when you change phones or reinstall. That copy sits in your iCloud, not with us, and we can't see it. Which apps you lock, your subscription status and your Screen Time data are not synced. If you're not signed in, everything stays on this phone only. Like other app data, this information may also be included in your device backups according to your iOS settings.</p>
 </section>
 
 <section class="card">
@@ -80,7 +81,7 @@
 <h3>Camera</h3>
 <p>Used to count reps (push-ups, squats and so on), to take photos you keep as proof, and to scan pages you want to read aloud. Rep counting happens on your phone in real time and the video is not saved. Text in scanned pages and pictures is read on your phone.</p>
 <h3>Microphone and speech recognition</h3>
-<p>Used to record you when a thing is done by voice, and to turn what you say into text when you talk to Bedo. Recordings are saved only on your phone and are never sent anywhere. Speech-to-text runs on your phone when your language supports it; otherwise Apple's speech recognition service processes the audio under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
+<p>Used to record you when a thing is done by voice, and to turn what you say into text when you talk to Bedo. Recordings are saved on your phone (and, if you're signed in to iCloud, in your own iCloud) and are never sent to us or to the AI. Speech-to-text runs on your phone when your language supports it; otherwise Apple's speech recognition service processes the audio under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
 <h3>Apple Health</h3>
 <p>If you set a thing to finish from Health data, BeDo reads today's walking and running distance, steps, exercise minutes or mindful minutes. Read only: BeDo never writes to Health. <strong>Health data stays on your phone. It is not sent to the AI service or to anyone else, and is never used for advertising.</strong></p>
 <h3>Photos</h3>
@@ -96,12 +97,12 @@
 <div class="table-wrap">
 <table>
   <tr><th>When</th><th>What is sent</th></tr>
-  <tr><td>You talk to Bedo</td><td>What you type, or say after it's turned into text. A short summary of your things so Bedo knows what you mean: names, times, days, how many times you've done them lately, whether apps are locked, and how many early unlocks you've used.</td></tr>
+  <tr><td>You talk to Bedo</td><td>What you type, or say after it's turned into text. The things you've told Bedo to keep in mind (Me → Bedo). A short summary of your things so Bedo knows what you mean: names, times, days, how many times you've done them lately, whether apps are locked, and how many early unlocks you've used.</td></tr>
   <tr><td>You send Bedo a picture</td><td>The picture, plus the text your phone read from it.</td></tr>
   <tr><td>You ask Bedo to work on a script</td><td>That script.</td></tr>
-  <tr><td>You finish a thing by photo or screenshot</td><td>That picture, so Bedo can check it matches what you agreed.</td></tr>
+  <tr><td>You finish a thing by photo or screenshot</td><td>That picture, so Bedo can check it matches what you agreed. If you turned on a "before" photo for that thing, also the photo you took when you started that day, so Bedo can compare the two. Until then the "before" photo stays on your phone, and it is deleted once the thing counts or the day ends.</td></tr>
   <tr><td>You finish a thing</td><td>Its name and the numbers already on your wall (for example "30 push-ups, 8 days"). With BeDo Pro, also a small copy of the photo you took. Numbers read from Apple Health are not sent.</td></tr>
-  <tr><td>Weekly cards and letters</td><td>How many times you did each thing, how many times you unlocked early, and one line you wrote.</td></tr>
+  <tr><td>Weekly notes and letters</td><td>Your record of those days: what you did and when, how much, when you unlocked early and the reason you gave, up to 12 things you wrote, what you told me when you started, the things you've told me to keep in mind, and my last letter with your reply. No photos or recordings.</td></tr>
 </table>
 </div>
 <p><strong>Never sent:</strong> which apps you lock, your recordings, your Apple Health data, your rep-counting video.</p>
@@ -117,7 +118,7 @@
 
 <section class="card">
 <h2>Subscriptions</h2>
-<p>BeDo is sold by Apple as an auto-renewing subscription (yearly, with a free trial, or monthly) or as a one-time purchase. Apple handles payment; we never receive your payment details. To know whether your trial, subscription or purchase is active, BeDo checks Apple-signed purchase records on your phone, and sends the current one with each AI request so our relay can check Apple's signature itself. The relay keeps only a fingerprint of that record and when it expires. To stop abuse, the relay counts messages under your anonymous device ID: a few in total before you start, and a daily ceiling you won't reach in normal use. If you allow notifications, BeDo reminds you two days before a free trial ends; that reminder is scheduled on your phone. Manage or cancel in your iPhone's Settings → your name → Subscriptions. Purchases are covered by <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
+<p>BeDo holds three tasks for you for free. More is sold by Apple as an auto-renewing subscription (yearly, monthly or weekly; new subscribers can try it first). A one-time purchase bought earlier still counts. Apple handles payment; we never receive your payment details. To know whether your trial, subscription or purchase is active, BeDo checks Apple-signed purchase records on your phone, and sends the current one with each AI request so our relay can check Apple's signature itself. The relay keeps only a fingerprint of that record and when it expires. To stop abuse, the relay counts messages under your anonymous device ID: a few each day on the free plan, and a daily ceiling you won't reach in normal use once you subscribe. If you allow notifications, BeDo reminds you two days before a trial ends and you're charged; that reminder is scheduled on your phone. Manage or cancel in your iPhone's Settings → your name → Subscriptions. Purchases are covered by <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
 </section>
 
 <section class="card">
@@ -127,12 +128,12 @@
 
 <section class="card">
 <h2>Keeping and deleting your data</h2>
-<p>Data on your phone stays until you delete it. You can delete a thing and its records, delete everything in <strong>Me → Privacy &amp; data → Delete all data</strong>, or delete the app. Deleting all data can't be undone. It doesn't reset your daily message count: the relay's record of your anonymous device ID goes away on its own after 90 days without use. Things already sent to DeepSeek are held under DeepSeek's terms. We can't access or delete them because we never kept them.</p>
+<p>Data on your phone stays until you delete it. You can delete a thing and its records, delete everything in <strong>Me → Privacy &amp; data → Delete all data</strong>, or delete the app. Delete all data also removes BeDo's copy from your iCloud; deleting the app only removes what's on this phone, and the iCloud copy stays until you delete all data in BeDo or remove BeDo's data in iOS Settings → your name → iCloud. Deleting all data can't be undone. It doesn't reset your daily message count: the relay's record of your anonymous device ID goes away on its own after 90 days without use. Things already sent to DeepSeek are held under DeepSeek's terms. We can't access or delete them because we never kept them.</p>
 </section>
 
 <section class="card">
 <h2>Your rights</h2>
-<p>Depending on where you live (for example under the GDPR in the EU/UK or privacy laws in US states such as California), you may have rights to access, correct, delete or port your personal data, and to object to or restrict processing. Because your data lives on your phone, you can see, change and delete it in BeDo yourself. For anything else, contact us. We don't sell or share personal information for cross-context behavioral advertising.</p>
+<p>Depending on where you live (for example under the GDPR in the EU/UK or privacy laws in US states such as California), you may have rights to access, correct, delete or port your personal data, and to object to or restrict processing. Because your data lives on your phone and in your own iCloud, you can see, change and delete it in BeDo yourself. For anything else, contact us. We don't sell or share personal information for cross-context behavioral advertising.</p>
 <p>Where the GDPR applies, we rely on your consent to send content to the AI service. You can withdraw it by not sending further messages and deleting your data. We rely on performing our service to you for everything that happens on your device.</p>
 </section>
 
@@ -158,7 +159,7 @@ Email: <a class="contact-email" href="mailto:remagi2046@gmail.com">remagi2046@gm
 <!-- ========================= 简体中文 ========================= -->
 <article id="zh" lang="zh-Hans">
 <h1>BeDo 隐私政策</h1>
-<p class="meta">生效日期：2026 年 10 月 21 日</p>
+<p class="meta">生效日期：2026 年 10 月 30 日</p>
 
 <p>BeDo 帮你把每天给自己定的几件小事做完：没做完，分心 App 就锁着。这份政策说明 BeDo 怎么处理你的信息。一句话：<strong>你的事情、记录、照片和录音都留在你的手机上。我们没有账号体系、没有用户数据库、没有广告、不做追踪。</strong>唯一离开手机的，是发给支撑 Bedo 的 AI 服务的内容（中间经过我们一个什么都不保存的中转服务），而且要你先同意。</p>
 
@@ -167,7 +168,7 @@ Email: <a class="contact-email" href="mailto:remagi2046@gmail.com">remagi2046@gm
   <li>不用注册，没有账号。我们唯一的服务器是一个中转服务：只转发 AI 请求，一条都不保存。</li>
   <li>没有广告，没有统计分析 SDK，不跨 App 或网站追踪你。我们从不出售你的数据。</li>
   <li>你锁了哪些 App，连 BeDo 自己都不知道：iOS 只给它一串读不出来的标识。</li>
-  <li>你的「健康」数据和录音永远不离开你的手机。</li>
+  <li>你的「健康」数据永远不离开你的手机。录音从不发给我们或 AI；登录了 iCloud 的话，会在你自己的 iCloud 里存一份。</li>
   <li>你跟 Bedo 说话时，发出去的内容会经过我们的中转服务交给 AI 服务 DeepSeek，而且要你先点同意。</li>
 </ul>
 </div>
@@ -178,14 +179,15 @@ Email: <a class="contact-email" href="mailto:remagi2046@gmail.com">remagi2046@gm
 </section>
 
 <section class="card">
-<h2>留在你手机上的</h2>
-<p>下面这些只存在你手机上 BeDo 的存储空间里。我们收不到，也看不到。</p>
+<h2>留在你手机和你自己 iCloud 里的</h2>
+<p>下面这些存在你手机上 BeDo 的存储空间里；登录了 iCloud 的话，也在你自己的 iCloud 里存一份。我们收不到，也看不到。</p>
 <ul>
   <li><strong>你的事和规则：</strong>名字、哪几天、几点起锁、怎么算做完、保底版、朗读用的稿子。</li>
-  <li><strong>你的记录：</strong>什么时候做完了什么、个数和时长、你写的话、留下的照片和截图、录音、成就墙、周卡和来信。</li>
+  <li><strong>你的记录：</strong>什么时候做完了什么、个数和时长、你写的话、留下的照片和截图、录音、成就页、便条和来信。</li>
+  <li><strong>Bedo 记得的：</strong>你让 Bedo 记住的话，原话（最多 60 条）。在「我 → Bedo」里能看、能改、能删。</li>
   <li><strong>设置：</strong>Bedo 的名字、一天几点结束、每月允许自己临时解锁几次等。</li>
 </ul>
-<p>BeDo 目前不做 iCloud 同步。和其他 App 的数据一样，这些信息可能按你的 iOS 设置被包含在设备备份里（iCloud 云备份或电脑备份）。</p>
+<p>登录了 iCloud 的话，BeDo 会在你自己的 iCloud 账户里（苹果 CloudKit 的私有数据库）存一份，换手机或重装后会回来。这一份在你的 iCloud 里，不在我们这儿，我们看不到。锁哪些 App、订阅状态和屏幕使用时间的数据不同步。没登录 iCloud 的话，一切只存在这台手机上。和其他 App 的数据一样，这些信息也可能按你的 iOS 设置被包含在设备备份里。</p>
 </section>
 
 <section class="card">
@@ -195,7 +197,7 @@ Email: <a class="contact-email" href="mailto:remagi2046@gmail.com">remagi2046@gm
 <h3>相机</h3>
 <p>用来数动作（俯卧撑、深蹲等）、拍下你留作凭证的照片、扫描要朗读的纸页。动作计数在手机上实时完成，视频不保存。扫描和图片里的文字在手机上识别。</p>
 <h3>麦克风和语音识别</h3>
-<p>用来在一件事需要录音时录下你说的话，以及在你跟 Bedo 说话时把语音转成文字。录音只存在你手机上，从不发送到任何地方。你的语言支持时，语音转文字在手机上完成；不支持时由苹果的语音识别服务处理音频，适用<a href="https://www.apple.com.cn/legal/privacy/">苹果的隐私政策</a>。</p>
+<p>用来在一件事需要录音时录下你说的话，以及在你跟 Bedo 说话时把语音转成文字。录音存在你手机上（登录了 iCloud 的话，也在你自己的 iCloud 里），从不发给我们或 AI。你的语言支持时，语音转文字在手机上完成；不支持时由苹果的语音识别服务处理音频，适用<a href="https://www.apple.com.cn/legal/privacy/">苹果的隐私政策</a>。</p>
 <h3>健康</h3>
 <p>如果你把某件事设成用「健康」数据判断完成，BeDo 会读取当天的步行和跑步距离、步数、锻炼分钟数或正念分钟数。只读，从不写入「健康」。<strong>健康数据只留在你的手机上，不发给 AI 服务，不给任何人，也绝不用于广告。</strong></p>
 <h3>照片</h3>
@@ -211,12 +213,12 @@ Email: <a class="contact-email" href="mailto:remagi2046@gmail.com">remagi2046@gm
 <div class="table-wrap">
 <table>
   <tr><th>什么时候</th><th>发送什么</th></tr>
-  <tr><td>你跟 Bedo 说话</td><td>你打的字，或者语音转成的文字；外加一小段事情摘要，好让 Bedo 知道你在说什么：事情的名字、时间、哪几天、最近做了几次、现在锁没锁、这个月临时解锁用了几次。</td></tr>
+  <tr><td>你跟 Bedo 说话</td><td>你打的字，或者语音转成的文字；你让 Bedo 记住的话（「我 → Bedo」里那些）；外加一小段事情摘要，好让 Bedo 知道你在说什么：事情的名字、时间、哪几天、最近做了几次、现在锁没锁、这个月临时解锁用了几次。</td></tr>
   <tr><td>你发图给 Bedo</td><td>那张图，以及手机从图里认出的文字。</td></tr>
   <tr><td>你让 Bedo 改稿子</td><td>那份稿子。</td></tr>
   <tr><td>用拍照或截图完成一件事</td><td>那张图，让 Bedo 核对是不是你约好的那件事。</td></tr>
   <tr><td>你做完一件事</td><td>这件事的名字和墙上已有的数字（比如「30 个俯卧撑，第 8 天」）。BeDo Pro 用户还会发送你拍的那张照片的小图。从「健康」读到的数字不发送。</td></tr>
-  <tr><td>周卡和来信</td><td>每件事做了几次、临时解锁了几次，以及你写过的一句话。</td></tr>
+  <tr><td>便条和来信</td><td>那段日子的记录：几点做了什么、做了多少、什么时候临时解锁和你说的原因、你写过的最多 12 句话、你刚开始时说的话、你让我记住的话，以及上一封信和你的回复。不发照片和录音。</td></tr>
 </table>
 </div>
 <p><strong>从不发送：</strong>你锁了哪些 App、你的录音、你的健康数据、动作计数时的视频。</p>
@@ -232,7 +234,7 @@ Email: <a class="contact-email" href="mailto:remagi2046@gmail.com">remagi2046@gm
 
 <section class="card">
 <h2>订阅</h2>
-<p>BeDo 由苹果销售，可以选自动续期订阅（年付带免费试用，或月付），也可以一次买断。付款由苹果处理，我们收不到你的支付信息。BeDo 通过手机上由苹果签名的购买记录判断试用、订阅或买断是否有效，并在每次 AI 请求时带上当前那一条，由我们的中转服务自己验苹果的签名；中转服务只保存这条记录的指纹和到期时间。为了防止滥用，中转服务按你的匿名设备标识计数：开始之前总共能说几句，开始之后每天有一个正常用不会碰到的上限。如果你允许通知，免费试用结束前两天 BeDo 会提醒你，这条提醒是在你手机上排好的。在 iPhone 的「设置 → 你的名字 → 订阅」里管理或取消。购买适用<a href="https://www.apple.com.cn/legal/privacy/">苹果的隐私政策</a>。</p>
+<p>BeDo 免费帮你拿着 3 件事。想要更多，由苹果销售，可以选自动续期订阅（年度、月度、周度，新用户可以先试用；以前买过一次买断的照常有效）。付款由苹果处理，我们收不到你的支付信息。BeDo 通过手机上由苹果签名的购买记录判断试用、订阅或买断是否有效，并在每次 AI 请求时带上当前那一条，由我们的中转服务自己验苹果的签名；中转服务只保存这条记录的指纹和到期时间。为了防止滥用，中转服务按你的匿名设备标识计数：免费版每天能说几句，订阅之后每天有一个正常用不会碰到的上限。如果你允许通知，试用结束、开始扣费前两天 BeDo 会提醒你，这条提醒是在你手机上排好的。在 iPhone 的「设置 → 你的名字 → 订阅」里管理或取消。购买适用<a href="https://www.apple.com.cn/legal/privacy/">苹果的隐私政策</a>。</p>
 </section>
 
 <section class="card">
@@ -242,12 +244,12 @@ Email: <a class="contact-email" href="mailto:remagi2046@gmail.com">remagi2046@gm
 
 <section class="card">
 <h2>保存与删除</h2>
-<p>手机上的数据会一直保留到你删除为止。你可以删除某件事和它的记录，在「<strong>我 → 隐私与数据 → 删掉全部数据</strong>」里删除全部，或者直接删除 App。删除全部数据无法恢复。它不会重置你今天说了几句：中转服务里你那个匿名设备标识的记录，90 天没用过会自己删除。已经发给 DeepSeek 的内容按 DeepSeek 的条款保存，我们从未保存这些内容，所以无法访问或删除。</p>
+<p>手机上的数据会一直保留到你删除为止。你可以删除某件事和它的记录，在「<strong>我 → 隐私与数据 → 删掉全部数据</strong>」里删除全部，或者直接删除 App。「删掉全部数据」会连你 iCloud 里 BeDo 的那份一起删；只删 App 的话，删掉的是这台手机上的，iCloud 里那份还在，直到你在 BeDo 里删掉全部数据，或在 iOS「设置 → 你的名字 → iCloud」里删掉 BeDo 的数据。删除全部数据无法恢复。它不会重置你今天说了几句：中转服务里你那个匿名设备标识的记录，90 天没用过会自己删除。已经发给 DeepSeek 的内容按 DeepSeek 的条款保存，我们从未保存这些内容，所以无法访问或删除。</p>
 </section>
 
 <section class="card">
 <h2>你的权利</h2>
-<p>根据你所在的地区（例如欧盟/英国的 GDPR、美国加州等州的隐私法、中国的《个人信息保护法》），你可能享有查阅、更正、删除、转移个人信息，以及反对或限制处理的权利。你的数据在你自己的手机上，在 BeDo 里就能查看、修改和删除；其他问题请联系我们。我们不出售个人信息，也不为跨情境行为广告共享个人信息。</p>
+<p>根据你所在的地区（例如欧盟/英国的 GDPR、美国加州等州的隐私法、中国的《个人信息保护法》），你可能享有查阅、更正、删除、转移个人信息，以及反对或限制处理的权利。你的数据在你自己的手机和 iCloud 里，在 BeDo 里就能查看、修改和删除；其他问题请联系我们。我们不出售个人信息，也不为跨情境行为广告共享个人信息。</p>
 <p>适用 GDPR 时，我们把内容发给 AI 服务的依据是你的同意，你可以不再发送新消息并删除数据来撤回；在你手机上进行的其他处理，依据是向你提供服务。</p>
 </section>
 
